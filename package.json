@@ -1,0 +1,30 @@
+{
+  "name": "lazy-loading",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/Main.purs",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "webpack": "^3.0.0"
+  },
+  "scripts": {
+    "test": "pulp test",
+    "build": "pulp build; webpack",
+    "prestart": "pulp build; webpack",
+    "start": "http-server dist"
+  },
+  "keywords": [
+    "PureScript",
+    "webpack",
+    "lazy-loading"
+  ],
+  "author": "Marcin Szamotulski",
+  "license": "MPL-2.0"
+}

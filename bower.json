@@ -1,11 +1,12 @@
 {
-  "name": "bundling",
+  "name": "lazy-loading",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "output"
   ],
+  "license": "MPL-2.0",
   "dependencies": {
     "purescript-prelude": "^3.1.0",
     "purescript-console": "^3.0.0",
